@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body
+
+/*div {
+    color: purple;
+    background: plum;
+}
+.hello{
+    color: palegreen;
+}
+
+#hi{color: powderblue}
+div > p{background-color: palegreen;
+}
+div li{
+    background-color: white;
+}*/
+input[type=text]{
+    border-color: teal;
+    border: 2px;
+    background-color: red;
+    
+}
+a:hover{
+    color: red;
+}
+a:link {color: blue}
+
+a: :visited : :hover{
+    div
+    color: green;
+    margin-left:10px;
+    margin-top: 30px;
+
+}
+div>p{
+    background-color: ;
+    padding
+}
+}

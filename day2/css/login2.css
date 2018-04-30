@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.f8{
+    margin: 100px 100px 0 300px;
+    border: ridge;
+    border-width: 1px
+}
+.main{
+    margin: 10px 10px 10px 10px;
+    
+}
+
+#logo{
+    padding-bottom: 100
+}
+
+#login{
+    
+    font-size: 22px;
+    font-weight: ;
+    font-style: ;
+}
+
+#id{
+    margin-top: 80px;
+    border-style: none;
+    border-bottom: solid;
+    border-color: rgb(170, 168, 168);
+    border-bottom-width: 1px;
+    padding-left:
+}
+
+#email{
+    width: 180px;
+    height: 24px;
+    border: none;
+    margin-right: 1200px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:#4285f4;
+}
+a:hover{
+
+}
+#last{
+    margin-top: 120px;
+}
+
+#next{
+    border-style: none;
+    background-color: #4285f4;
+    color: #ffffff;
+    width: 88px;
+    height: 36px;
+    font-size: 15px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 180px
+}
