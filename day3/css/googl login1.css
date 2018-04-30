@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+.out-box{
+    width: 750px;
+    height: 550px;
+    /*
+    margin-top: 50px;
+    margin-left: calc(50% - 375px);
+    */
+    margin: 50px 0px 0px calc(50% - 375px);
+    border-style: solid;
+    border-color: #EBE9E9;
+    border-width: 1px;
+    box-shadow: 0 0 5px gray;
+}
+.in-box{
+    padding: 48px 40px 36px 40px;
+    width: 670px;
+    height: 464px;
+}
+.inner-box{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 464px;
+}
+.left-box{
+    display: inline-block;
+    width: 370px;
+    height: 464px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0;
+}
+.right-box{
+    display: inline-block;
+    width: 280px;
+    height: 464px;
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0;
+    
+}
+.logo-img{
+width: 370px;
+height: 24px;
+}
+.google-text-box{
+width: 370px;
+height: 73px;
+padding: 0;
+}
+.google-text-1{
+    height: 32px;
+    width: 370px;
+    padding: 16px 0 0 0;
+}
+hi{
+font-size: 24px;
+font-weight: 400;
+line-height: 32;
+margin:0; 
+}
+p{
+    margin: 0;
+    padding: 1px 0 3px 0;
+}
+.info{
+    width: 370px;
+    height: 344px;
+    margin: 24px 0 0 0;
+}
+.input-info{
+    height: 264px;
+    width: 370px;
+
+}
+.alt-login{
+    height: 48px;
+    width: 370px;
+    margin: 32px 0 0 0;
+}
+.full-name{
+    height: 76.8px;
+    width: 380px;
+    margin: 0;
+    padding: 0;
+}
+.last-name{
+    width: 177px;
+    margin: 0 17px 0 0;
+    padding: 24px 0 0 0; 
+    display: inline-block;
+}
+.firs-name{
+    width: 177px;
+    margin: 0;
+    padding: 24px 0 0 0;
+    display: inline-block;
+}
+.last-name{
+    height: 24px;
+    width: 177px;
+    font-size: 15px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: gray;
+    display: inline-block;
+    
+    
+}
+.first-name{
+    height: 24px;
+    width: 177px;
+    font-size: 15px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: red;
+    display: inline-block;
+}
+name{
+    height: 24px;
+    width: 177px;
+    font-size: 15px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: red;
+
+
+}

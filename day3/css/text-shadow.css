@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+div{
+    font: normal 24px verdata;
+}
+.Droptext
+{text-shadow: 3px 3px;}
+.redtext
+{text-shadow: 3px 3px red;}
+.blurtext
+{text-shadow: 3px 3px 5px skyblue;}
+.glowEffect
+{text-shadow: 0px 0px 3px red;}
+.wordarteffect
+{color:white;   text-shadow: 0px 0px 3px darkblue;}
+.threedeffect
+{color: white;   text-shadow: 2px 2px 4px black;}
+.multieffect
+{color: yellow;     text-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+

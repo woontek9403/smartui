@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.fix{
+    color: red;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+}

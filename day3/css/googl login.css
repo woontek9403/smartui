@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.out-box{
+    width: 750px;
+    height: 660px;
+    margin-top: 50px;
+    margin-left: calc(50% - 375px);
+    margin: 50px 0px 0px calc(50% -375px);
+    border-style: solid;
+    border: black
+}
