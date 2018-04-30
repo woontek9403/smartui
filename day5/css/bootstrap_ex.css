@@ -1,0 +1,30 @@
+@charset "uft-8";
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color:grey;
+    text-decoration: underline;
+}
+.info{
+}
+#google_img{
+    width: 292px;
+    height: 92px;
+
+}
+.googlelogo{
+    padding-left: calc(50% - 146px);
+}
+input{
+    width: 662px;
+    height: 43px;
+    font-size: 14px;
+    top: 20px;
+    margin:20px 0px 0px calc(50% - 331px);
+}
