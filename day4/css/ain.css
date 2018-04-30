@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+.animation{
+    font-size: 30px;
+    font-weight: 900;
+    animation-name: textColorAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.sizeP{
+    animation-name: size;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes textColorAnimation{
+    0% {
+       color: black 
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: green;                   
+    }
+}
+.fail{
+    animation-name: fail;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes size{
+    0% {
+        font-size:500%;
+    }
+    50% {
+        font-size:100%;
+    }
+    100% {
+        font-size:500%;
+    }
+}
+.fall-box{
+    text-align: center;
+    height: 120px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmySLw-g4PLeV1bkXfGG7EXaBpeXOf5XyDyYg-QWT7gmgGkDHrkg");
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation-name: 123;
+    animation-name: imagechange
+    animation-duration : 5s;
+    animation-iteration-count : infinite;
+}
+
+@keyframes imagechange{
+    13%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0O6eMbQoXvDkJiEuIJ86u8eHJKX-lddbIJUxxp8Av3GRag3f")}
+    46%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmySLw-g4PLeV1bkXfGG7EXaBpeXOf5XyDyYg-QWT7gmgGkDHrkg")}
+    79%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmySLw-g4PLeV1bkXfGG7EXaBpeXOf5XyDyYg-QWT7gmgGkDHrkg")}
+    100%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0O6eMbQoXvDkJiEuIJ86u8eHJKX-lddbIJUxxp8Av3GRag3f")}
+
+}
+.img{
+    width: 300px;
+    height: 300px;
+   
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0O6eMbQoXvDkJiEuIJ86u8eHJKX-lddbIJUxxp8Av3GRag3f");
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation-name: 123;
+    animation-duration: 55;
+    animation-iteration-count: infinite;
+@keyframes 123{
+
+} 

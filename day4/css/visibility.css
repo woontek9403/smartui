@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.disable-box{
+    display: none;
+}
+.hidden-box{
+    visibility: hidden;
+}
+p{
+    margin: 0;
+}

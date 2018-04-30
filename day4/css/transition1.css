@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.transition{
+    width: 50px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    transition: font-size 5s,
+                width 5s,
+                height 5s;
+}
+.transition:hover{
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+}
